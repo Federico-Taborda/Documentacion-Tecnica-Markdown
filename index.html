@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Css/styles.css">
+    <title>Web</title>
+</head>
+<body>
+    <header>
+        <img src="./img/markdown.png" alt="">
+        <h1>Markdown - Documentacion</h1>
+    </header>
+    <main id="contenido-principal">
+        <aside id="columna">
+            <h2>Documentacion</h2>
+            <ul>
+                <li><a href="#introduccion">Introduccion</a></li>
+                <li><a href="#texto">Texto</a></li>
+                <li><a href="#listas">Listas</a></li>
+                <li><a href="#referencias">Referencia</a></li>
+            </ul>
+        </aside>
+        <section id="documentacion">
+            <h1 id="introduccion">Introduccion</h1>
+            <h2>Que es Markdown?</h2>
+            <p>Markdown es un lenguaje de marcado ligero que puede usar para agregar elementos de formato a documentos de texto sin formato. Creado por John Gruber en 2004, Markdown es ahora uno de los lenguajes de marcado más populares del mundo. Permite controlar la visualización del documento, formatear palabras en negrita o cursiva, agregar imágenes y crear listas son solo algunas de las cosas que podemos hacer con Markdown</p>
+            <hr>
+
+            <h2 id="texto">Texto</h2>
+            <h3>Ejemplo</h3>
+            <article class="ejemplo">
+                <section class="izquierda">
+                    <pre>
+                        Puedes generar palabras en **negrita**
+
+                        O generar letras en *italic*
+                        
+                        Tambien puedes generar [links](www.google.com)
+                    </pre>
+                </section>
+                <section class="derecha">
+                    <p>Puedes generar palabras en <b>negrita</b></p>
+                    <p>O generar letras en <i>italic</i></p>
+                    <p>Tambien puedes generar <a href="www.google.com">links</a></p>
+                </section>
+            </article>
+            <hr>
+
+            <h2 id="listas">Listas</h2>
+            <h3>Ejemplo</h3>
+            <article class="ejemplo">
+                <section class="izquierda">
+                    <pre>
+                        Listas ordenadas:
+
+                        1. Uno
+                        2. Dos
+                        3. Tres
+
+                        Listas desordenadas:
+
+                        * Empieza la linea con un asterisco
+
+                        Alternativa
+
+                        - Los guiones funcionan Tambien
+                        - Y si quieres sub-listas, pon dos espacios antes del guion o asterisco
+                          - Como esto
+                          - Y esto
+                    </pre>
+                </section>
+                <section class="derecha">
+                    <p>Listas ordenadas:</p>
+                    <ol>
+                        <li>Uno</li>
+                        <li>Dos</li>
+                        <li>Tres</li>
+                    </ol>
+                    <p>Listas desordenadas:</p>
+                    <ul>
+                        <li>Empieza la linea con un asterisco</li>
+                    </ul>
+                    <p>Alternativa</p>
+                    <ul>
+                        <li>Los guiones funcionan Tambien</li>
+                        <li>Y si quieres sub-listas, pon dos espacios antes del guion o asterisco</li>
+                        <ul>
+                            <li>Como esto</li>
+                            <li>Y esto</li>
+                        </ul>
+                    </ul>
+                </section>
+            </article>
+        </section>
+    </main>
+    <script src="Js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #2f3640;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 10px;
+}
+
+header img {
+    width: 5%;
+}
+
+#contenido-principal {
+    display: flex;
+    width: 100%;
+}
+
+#columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    background-color: #192a56;
+}
+
+#columna h2 {
+    font-size: 1.8em;
+    padding: 10px;
+}
+
+#columna ul {
+    width: 100%;
+    text-align: center;
+    list-style: none;
+}
+
+#columna ul li {
+    padding: 10px;
+    border-top: 2px solid black;
+}
+
+#columna ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#columna ul li a:hover {
+    color: #00a8ff;
+}
+
+#documentacion {
+    width: 80%;
+    padding: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: #273c75;
+}
+
+#documentacion h1, h2, h3, p, article, section {
+    padding: 10px;
+}
+
+#documentacion li, ul, ol {
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+#documentacion h1 {
+    font-size: 2.5em;
+}
+
+#documentacion h2 {
+    font-size: 2em;
+}
+
+#documentacion h3 {
+    font-size: 1.6em;
+}
+
+#documentacion p, li {
+    font-size: 1.3em;
+}
+
+#documentacion pre {
+    font-size: 1.3em;
+}
+
+#documentacion hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#documentacion article {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#documentacion article .izquierda, .derecha {
+    padding: 10px;
+}
+
+#documentacion article .izquierda {
+    background-color: #353b48;
+}
+
+#documentacion article .derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #353b48;
+}
+
+#documentacion article .izquierda pre{
+    padding: 30px;
+    white-space: pre-line;
+    background-color: #2f3640;
+}
+
+
