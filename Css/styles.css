@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #fff;
+    text-decoration: none;
 }
 
 html {
@@ -15,6 +16,10 @@ header {
     align-items: center;
     padding: 20px;
     background-color: #2f3640;
+}
+
+hr {
+    border: 2px solid #9c88ff;
 }
 
 header h1 {
@@ -36,9 +41,9 @@ header img {
     flex-direction: column;
     align-items: center;
     width: 20%;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
+    border-top: 2px solid #9c88ff;
+    border-bottom: 2px solid #9c88ff;
+    border-right: 2px solid #9c88ff;
     background-color: #192a56;
 }
 
@@ -55,7 +60,7 @@ header img {
 
 #columna ul li {
     padding: 10px;
-    border-top: 2px solid black;
+    border-top: 2px solid #9c88ff;
 }
 
 #columna ul li a {
@@ -69,14 +74,18 @@ header img {
 
 #documentacion {
     width: 80%;
-    padding: 20px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    padding: 20px 20px 50px 20px;
+    border-top: 2px solid #9c88ff;
+    border-bottom: 2px solid #9c88ff;
     background-color: #273c75;
 }
 
-#documentacion h1, h2, h3, p, article, section {
+#documentacion h1, h2, h3, h4, h5, h6, p, a, cite, article, section, table, th, td {
     padding: 10px;
+}
+
+#documentacion table, th, td {
+    border: 2px solid black;
 }
 
 #documentacion ul, ol {
@@ -96,7 +105,7 @@ header img {
     font-size: 1.6em;
 }
 
-#documentacion  p, li {
+#documentacion  p, li, a, cite, th, td {
     font-size: 1.3em;
 }
 
@@ -130,7 +139,17 @@ header img {
     background-color: #353b48;
 }
 
+#documentacion article .derecha img {
+    width: 10%;
+}
+
 #documentacion article .izquierda pre{
+    padding: 30px;
+    white-space: pre-line;
+    background-color: #2f3640;
+}
+
+#documentacion article .derecha pre{
     padding: 30px;
     white-space: pre-line;
     background-color: #2f3640;
