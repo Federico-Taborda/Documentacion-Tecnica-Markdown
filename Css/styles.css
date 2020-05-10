@@ -155,4 +155,6 @@ header img {
     background-color: #2f3640;
 }
 
-
+#documentacion .referencias:hover {
+    color: #718093;
+}
